@@ -1,0 +1,31 @@
+{
+  "ciudad": "Medellin",
+  "latitude": 6.25184,
+  "longitude": -75.56359,
+  "country": "Colombia",
+  "ingestion_time": "2026-04-20T18:10:25.000000",
+  "payload": {
+    "latitude": 6.25,
+    "longitude": -75.5625,
+    "generationtime_ms": 0.085,
+    "utc_offset_seconds": -18000,
+    "timezone": "America/Bogota",
+    "timezone_abbreviation": "GMT-5",
+    "elevation": 1495.0,
+    "current": {
+      "time": "2026-04-20T13:00",
+      "interval": 900,
+      "temperature_2m": 25.4,
+      "relative_humidity_2m": 68,
+      "apparent_temperature": 26.1,
+      "precipitation": 0.4,
+      "rain": 0.2,
+      "cloud_cover": 74,
+      "pressure_msl": 1014.2,
+      "wind_speed_10m": 8.6,
+      "wind_direction_10m": 210
+    },
+    "hourly": {},
+    "daily": {}
+  }
+}
