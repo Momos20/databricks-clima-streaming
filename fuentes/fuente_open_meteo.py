@@ -15,14 +15,11 @@ Este notebook NO hace parte del pipeline declarativo. Se ejecuta de forma
 independiente, ya sea manualmente o como un Job programado.
 """
 
-# COMMAND ----------
-
 import requests
 import json
 import uuid
 from datetime import datetime
 
-# COMMAND ----------
 
 # Ruta donde se almacenarán los archivos JSON crudos.
 # Esta ruta debe coincidir con la ruta utilizada por la capa Bronze.
@@ -31,7 +28,6 @@ ruta_salida = "/Volumes/workspace/default/streaming_clima/raw_json_v2/"
 # Creación de la carpeta en caso de que no exista.
 dbutils.fs.mkdirs("dbfs:/Volumes/workspace/default/streaming_clima/raw_json_v2/")
 
-# COMMAND ----------
 
 # Ciudades de Colombia monitoreadas por el flujo.
 ciudades = [
@@ -109,8 +105,6 @@ def construir_url(lat, lon):
         f"&timezone=auto"
     )
 
-# COMMAND ----------
-
 # Se consume la API por cada ciudad y se genera un archivo JSON independiente.
 for c in ciudades:
     try:
@@ -142,8 +136,6 @@ for c in ciudades:
 
     except Exception as e:
         print(f"Error con {c['ciudad']}: {e}")
-
-# COMMAND ----------
 
 print("\nArchivos disponibles:")
 display(dbutils.fs.ls("dbfs:/Volumes/workspace/default/streaming_clima/raw_json_v2/"))
