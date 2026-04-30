@@ -16,12 +16,12 @@ Como el trabajo original fue construido dentro de un workspace de Databricks que
 
 Construir un flujo de datos en Databricks que permita:
 
-- Consumir información climática desde una API pública.
-- Guardar eventos climáticos como archivos JSON incrementales.
-- Ingerir los datos crudos en una capa Bronze.
-- Limpiar y estructurar la información en una capa Silver.
-- Calcular métricas, KPIs, anomalías y eventos de decisión en una capa Gold.
-- Visualizar los resultados en Databricks AI/BI Dashboards.
+- Obtener información climática desde una API pública de forma continua.
+- Registrar los eventos climáticos en archivos JSON generados de manera incremental.
+- Incorporar los datos en su estado original dentro de la capa Bronze.
+- Depurar y organizar la información para transformarla en datos confiables en la capa Silver.
+- Generar métricas, KPIs, detección de anomalías y eventos de decisión en la capa Gold.
+- Presentar los resultados a través de dashboards interactivos en Databricks AI/BI.
 
 ---
 
@@ -203,10 +203,10 @@ bronze_clima_raw_v2
 
 Responsabilidad:
 
-- Leer los archivos JSON crudos desde el volumen.
-- Ingerir datos incrementales con Auto Loader.
-- Conservar trazabilidad del archivo fuente.
-- Registrar el tiempo de procesamiento.
+- Leer los archivos JSON crudos almacenados en el volumen.
+- Incorporar los datos de forma incremental utilizando Auto Loader.
+- Mantener la trazabilidad de cada archivo de origen.
+- Registrar el momento en que cada dato es procesado.
 
 ---
 
