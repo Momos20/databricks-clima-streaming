@@ -59,7 +59,7 @@ AI/BI Dashboard
 ## 3. Estructura del repositorio
 
 ```text
-databricks-clima-streaming-github/
+databricks-clima-streaming/
 │
 ├── README.md
 ├── requirements.txt
@@ -86,13 +86,21 @@ databricks-clima-streaming-github/
 │
 ├── docs/
 │   ├── arquitectura.md
-│   └── guia_dashboard.md
+│   ├── guia_dashboard.md
+│   └── evidencias/
+│       ├── 01_estructura_pipeline_databricks.png
+│       ├── 02_notebook_fuente_open_meteo.png
+│       ├── 03_generacion_archivos_json.png
+│       ├── 04_pipeline_ejecucion_exitosa.png
+│       ├── 05_tabla_bronze.png
+│       ├── 06_tabla_silver.png
+│       ├── 07_tabla_gold.png
+│       ├── 08_dashboard_kpis.png
+│       └── 09_dashboard_graficas.png
 │
-├── data/
-│   └── sample_event.json
-│
-└── assets/
-    └── screenshots/
+└── data/
+    └── sample_event.json
+
 ```
 
 ---
