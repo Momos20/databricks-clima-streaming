@@ -320,13 +320,3 @@ event_time
 ventana_inicio
 tipo_anomalia
 ```
-
-## 9. Capturas de pantalla
-
-Las capturas del dashboard pueden guardarse en:
-
-```text
-assets/screenshots/
-```
-
-No se incluyen capturas reales en este repositorio para evitar compartir información del workspace original.
