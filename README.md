@@ -21,7 +21,7 @@ Construir un flujo de datos en Databricks que permita:
 - Incorporar los datos en su estado original dentro de la capa Bronze.
 - Depurar y organizar la información para transformarla en datos confiables en la capa Silver.
 - Generar métricas, KPIs, detección de anomalías y eventos de decisión en la capa Gold.
-- Presentar los resultados a través de dashboards interactivos en Databricks AI/BI.
+- Presentar los resultados a través de dashboards en Databricks AI/BI.
 
 ---
 
