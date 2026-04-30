@@ -16,6 +16,7 @@ El proyecto implementa una arquitectura Lakehouse con capas Bronze, Silver y Gol
 
 Como el trabajo original fue construido dentro de un workspace de Databricks que no se puede compartir directamente, este repositorio permite documentar y entregar el proyecto de forma reproducible: código fuente, estructura del pipeline, consultas SQL y guía para construir el dashboard.
 
+Link: [Github](https://github.com/Momos20/databricks-clima-streaming)
 ---
 
 ## 1. Objetivo del proyecto
