@@ -657,17 +657,6 @@ SELECT
   temperature_2m
 FROM workspace.default.silver_clima;
 ```
-
-Configuración sugerida:
-
-```text
-Tipo: Scatter plot
-Eje X: wind_speed_10m
-Eje Y: precipitation
-Color: ciudad
-Tamaño opcional: temperature_2m
-```
-
 ---
 
 ## 12. Programación del flujo
