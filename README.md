@@ -746,7 +746,7 @@ Esta sección presenta capturas de pantalla del proceso realizado en Databricks,
 
 ### Ejecución del pipeline
 
-![Ejecución del pipeline](docs/evidencias/04_pipeline_ejecucion_exitosa.png)
+![Ejecución del pipeline](docs/evidencias/04_pipeline_ejecucion_corriendo.png)
 
 ### Tablas generadas
 
@@ -762,5 +762,6 @@ Esta sección presenta capturas de pantalla del proceso realizado en Databricks,
 
 ![Dashboard gráficas](docs/evidencias/09_dashboard_graficas.png)
 
-![Dashboard anomlias](docs/evidencias/10_dashboard_anomalias.png
+![Dashboard anomalias](docs/evidencias/10_dashboard_anomalias.png)
+
 ---
