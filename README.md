@@ -730,3 +730,23 @@ Ejemplo:
 def silver_clima():
     ...
 ```
+
+## Evidencias del desarrollo
+
+### Estructura del pipeline en Databricks
+
+![Estructura del pipeline](docs/evidencias/01_estructura_pipeline_databricks.png)
+
+### Notebook fuente Open-Meteo
+
+![Notebook fuente Open-Meteo](docs/evidencias/02_notebook_fuente_open_meteo.png)
+
+### Archivos JSON generados
+
+![Archivos JSON generados](docs/evidencias/03_generacion_archivos_json.png)
+
+### Dashboard final
+
+![Dashboard KPIs](docs/evidencias/08_dashboard_kpis.png)
+
+![Dashboard gráficas](docs/evidencias/09_dashboard_graficas.png)
