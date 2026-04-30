@@ -731,7 +731,9 @@ def silver_clima():
     ...
 ```
 
-## Evidencias del desarrollo
+## 14. Evidencias del desarrollo
+
+Esta sección presenta capturas de pantalla del proceso realizado en Databricks, con el fin de evidenciar la creación de la fuente de datos, la estructura del pipeline, la generación de tablas y la construcción del dashboard.
 
 ### Estructura del pipeline en Databricks
 
@@ -745,8 +747,23 @@ def silver_clima():
 
 ![Archivos JSON generados](docs/evidencias/03_generacion_archivos_json.png)
 
+### Ejecución del pipeline
+
+![Ejecución del pipeline](docs/evidencias/04_pipeline_ejecucion_exitosa.png)
+
+### Tablas generadas
+
+![Tabla Bronze](docs/evidencias/05_tabla_bronze.png)
+
+![Tabla Silver](docs/evidencias/06_tabla_silver.png)
+
+![Tabla Gold](docs/evidencias/07_tabla_gold.png)
+
 ### Dashboard final
 
 ![Dashboard KPIs](docs/evidencias/08_dashboard_kpis.png)
 
 ![Dashboard gráficas](docs/evidencias/09_dashboard_graficas.png)
+
+![Dashboard anomlias](docs/evidencias/10_dashboard_anomalias.png
+---
