@@ -63,8 +63,6 @@ databricks-clima-streaming/
 │
 ├── README.md
 ├── requirements.txt
-├── .gitignore
-├── LICENSE
 │
 ├── fuentes/
 │   └── fuente_open_meteo.py
