@@ -2,6 +2,12 @@
   <img src="https://latimpacto.org/wp-content/uploads/2023/11/Eafit.png" width="40%">
 </p>
 
+## Integrantes
+
+- Juan Camilo Cataño Zuleta
+- Juan Manuel Agudelo Olarte
+- Carlos José Muñoz Cabrera 
+
 # Pipeline de Streaming Climático en Databricks
 
 Este repositorio contiene los archivos necesarios para reproducir un flujo de datos en Databricks orientado al monitoreo climático en tiempo casi real.
